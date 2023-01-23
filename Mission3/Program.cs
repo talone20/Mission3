@@ -8,6 +8,7 @@ namespace Mission3
 {
     class Program
     {
+        // Create a game board array to store the players’ choices
         static char[] gameBoard = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
         static void Main(string[] args)
         {
@@ -18,7 +19,6 @@ namespace Mission3
             int numberPicked;
             int whoWon = 0;
             string Continue = "";
-            // Create a game board array to store the players’ choices
             while (whoWon == 0)
             {
                 Console.WriteLine("Player 1 is X and Player 2 is O");
